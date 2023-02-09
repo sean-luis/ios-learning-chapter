@@ -23,7 +23,6 @@
 		3813CA622994C536000E5AB1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3813CA642994C53B000E5AB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3813CA672994C53B000E5AB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3813CA752994D100000E5AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3813CA7C2994DCF9000E5AB1 /* Teammate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teammate.swift; sourceTree = "<group>"; };
 		3813CA7E2994DD2C000E5AB1 /* TeammatesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeammatesData.swift; sourceTree = "<group>"; };
 		3813CA802994DF14000E5AB1 /* TeammateRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeammateRowView.swift; sourceTree = "<group>"; };
@@ -60,7 +59,6 @@
 		3813CA5F2994C536000E5AB1 /* SwiftyExperiments */ = {
 			isa = PBXGroup;
 			children = (
-				3813CA752994D100000E5AB1 /* Info.plist */,
 				3813CA7A2994DCC3000E5AB1 /* App */,
 				3813CA722994C79E000E5AB1 /* Shared */,
 				3813CA6E2994C752000E5AB1 /* Sean */,
