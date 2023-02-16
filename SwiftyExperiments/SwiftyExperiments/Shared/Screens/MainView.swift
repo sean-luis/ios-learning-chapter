@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct MainView: View {
-    // MARK: - PROPERTIES
+    // MARK: - Properties
     var teammates: [Teammate] = teammatesData
     
     // MARK: - Content

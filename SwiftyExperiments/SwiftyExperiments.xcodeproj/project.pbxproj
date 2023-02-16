@@ -15,6 +15,21 @@
 		3813CA7F2994DD2C000E5AB1 /* TeammatesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3813CA7E2994DD2C000E5AB1 /* TeammatesData.swift */; };
 		3813CA812994DF14000E5AB1 /* TeammateRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3813CA802994DF14000E5AB1 /* TeammateRowView.swift */; };
 		3813CA832994E32E000E5AB1 /* TeammateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3813CA822994E32E000E5AB1 /* TeammateDetailView.swift */; };
+		3876DFB7299B654100CB4FBB /* AccouncementCardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876DFB6299B654100CB4FBB /* AccouncementCardDetailView.swift */; };
+		3876DFB9299B6BC900CB4FBB /* Announcement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876DFB8299B6BC900CB4FBB /* Announcement.swift */; };
+		3876DFBB299B6CD200CB4FBB /* AnnouncementData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876DFBA299B6CD200CB4FBB /* AnnouncementData.swift */; };
+		38CDB5F0299E14360082A934 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CDB5E6299E14350082A934 /* OpenSans-Semibold.ttf */; };
+		38CDB5F1299E14360082A934 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CDB5E7299E14350082A934 /* OpenSans-Italic.ttf */; };
+		38CDB5F2299E14360082A934 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CDB5E8299E14350082A934 /* OpenSans-Light.ttf */; };
+		38CDB5F3299E14360082A934 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CDB5E9299E14350082A934 /* OpenSans-LightItalic.ttf */; };
+		38CDB5F4299E14360082A934 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CDB5EA299E14350082A934 /* OpenSans-Regular.ttf */; };
+		38CDB5F5299E14360082A934 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CDB5EB299E14360082A934 /* OpenSans-Bold.ttf */; };
+		38CDB5F6299E14360082A934 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CDB5EC299E14360082A934 /* OpenSans-SemiboldItalic.ttf */; };
+		38CDB5F7299E14360082A934 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CDB5ED299E14360082A934 /* OpenSans-ExtraBold.ttf */; };
+		38CDB5F8299E14360082A934 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CDB5EE299E14360082A934 /* OpenSans-ExtraBoldItalic.ttf */; };
+		38CDB5F9299E14360082A934 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CDB5EF299E14360082A934 /* OpenSans-BoldItalic.ttf */; };
+		38CDB5FB299E14DB0082A934 /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CDB5FA299E14DB0082A934 /* Font+Extensions.swift */; };
+		38CDB5FD299E18FF0082A934 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CDB5FC299E18FF0082A934 /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +42,21 @@
 		3813CA7E2994DD2C000E5AB1 /* TeammatesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeammatesData.swift; sourceTree = "<group>"; };
 		3813CA802994DF14000E5AB1 /* TeammateRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeammateRowView.swift; sourceTree = "<group>"; };
 		3813CA822994E32E000E5AB1 /* TeammateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeammateDetailView.swift; sourceTree = "<group>"; };
+		3876DFB6299B654100CB4FBB /* AccouncementCardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccouncementCardDetailView.swift; sourceTree = "<group>"; };
+		3876DFB8299B6BC900CB4FBB /* Announcement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Announcement.swift; sourceTree = "<group>"; };
+		3876DFBA299B6CD200CB4FBB /* AnnouncementData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementData.swift; sourceTree = "<group>"; };
+		38CDB5E6299E14350082A934 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		38CDB5E7299E14350082A934 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		38CDB5E8299E14350082A934 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		38CDB5E9299E14350082A934 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		38CDB5EA299E14350082A934 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		38CDB5EB299E14360082A934 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		38CDB5EC299E14360082A934 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		38CDB5ED299E14360082A934 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		38CDB5EE299E14360082A934 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		38CDB5EF299E14360082A934 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		38CDB5FA299E14DB0082A934 /* Font+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
+		38CDB5FC299E18FF0082A934 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +119,7 @@
 		3813CA6F2994C758000E5AB1 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				3876DFBA299B6CD200CB4FBB /* AnnouncementData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -96,6 +127,7 @@
 		3813CA702994C75D000E5AB1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3876DFB8299B6BC900CB4FBB /* Announcement.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -103,6 +135,7 @@
 		3813CA712994C763000E5AB1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3876DFB6299B654100CB4FBB /* AccouncementCardDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -110,6 +143,8 @@
 		3813CA722994C79E000E5AB1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				38CDB5E3299E13C30082A934 /* Assets */,
+				38CDB5DF299E09D40082A934 /* Extensions */,
 				3813CA792994DCAE000E5AB1 /* Screens */,
 				3813CA782994DCA8000E5AB1 /* Models */,
 				3813CA772994DCA1000E5AB1 /* Data */,
@@ -157,6 +192,40 @@
 				3813CA602994C536000E5AB1 /* SwiftyExperimentsApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		38CDB5DF299E09D40082A934 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				38CDB5FA299E14DB0082A934 /* Font+Extensions.swift */,
+				38CDB5FC299E18FF0082A934 /* Color+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		38CDB5E3299E13C30082A934 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				38CDB5E5299E13FB0082A934 /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		38CDB5E5299E13FB0082A934 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				38CDB5EB299E14360082A934 /* OpenSans-Bold.ttf */,
+				38CDB5EF299E14360082A934 /* OpenSans-BoldItalic.ttf */,
+				38CDB5ED299E14360082A934 /* OpenSans-ExtraBold.ttf */,
+				38CDB5EE299E14360082A934 /* OpenSans-ExtraBoldItalic.ttf */,
+				38CDB5E7299E14350082A934 /* OpenSans-Italic.ttf */,
+				38CDB5E8299E14350082A934 /* OpenSans-Light.ttf */,
+				38CDB5E9299E14350082A934 /* OpenSans-LightItalic.ttf */,
+				38CDB5EA299E14350082A934 /* OpenSans-Regular.ttf */,
+				38CDB5E6299E14350082A934 /* OpenSans-Semibold.ttf */,
+				38CDB5EC299E14360082A934 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,8 +286,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CDB5F2299E14360082A934 /* OpenSans-Light.ttf in Resources */,
+				38CDB5F7299E14360082A934 /* OpenSans-ExtraBold.ttf in Resources */,
+				38CDB5F0299E14360082A934 /* OpenSans-Semibold.ttf in Resources */,
+				38CDB5F3299E14360082A934 /* OpenSans-LightItalic.ttf in Resources */,
 				3813CA682994C53B000E5AB1 /* Preview Assets.xcassets in Resources */,
 				3813CA652994C53B000E5AB1 /* Assets.xcassets in Resources */,
+				38CDB5F5299E14360082A934 /* OpenSans-Bold.ttf in Resources */,
+				38CDB5F8299E14360082A934 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				38CDB5F9299E14360082A934 /* OpenSans-BoldItalic.ttf in Resources */,
+				38CDB5F6299E14360082A934 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				38CDB5F1299E14360082A934 /* OpenSans-Italic.ttf in Resources */,
+				38CDB5F4299E14360082A934 /* OpenSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,11 +308,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3876DFB9299B6BC900CB4FBB /* Announcement.swift in Sources */,
 				3813CA632994C536000E5AB1 /* MainView.swift in Sources */,
+				38CDB5FB299E14DB0082A934 /* Font+Extensions.swift in Sources */,
 				3813CA832994E32E000E5AB1 /* TeammateDetailView.swift in Sources */,
 				3813CA7F2994DD2C000E5AB1 /* TeammatesData.swift in Sources */,
+				3876DFBB299B6CD200CB4FBB /* AnnouncementData.swift in Sources */,
+				3876DFB7299B654100CB4FBB /* AccouncementCardDetailView.swift in Sources */,
 				3813CA812994DF14000E5AB1 /* TeammateRowView.swift in Sources */,
 				3813CA612994C536000E5AB1 /* SwiftyExperimentsApp.swift in Sources */,
+				38CDB5FD299E18FF0082A934 /* Color+Extensions.swift in Sources */,
 				3813CA7D2994DCF9000E5AB1 /* Teammate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +450,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftyExperiments/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Swifty;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftyXP;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -396,7 +480,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftyExperiments/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Swifty;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftyXP;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
