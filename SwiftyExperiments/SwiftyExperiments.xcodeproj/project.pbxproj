@@ -15,7 +15,7 @@
 		3813CA7F2994DD2C000E5AB1 /* TeammatesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3813CA7E2994DD2C000E5AB1 /* TeammatesData.swift */; };
 		3813CA812994DF14000E5AB1 /* TeammateRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3813CA802994DF14000E5AB1 /* TeammateRowView.swift */; };
 		3813CA832994E32E000E5AB1 /* TeammateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3813CA822994E32E000E5AB1 /* TeammateDetailView.swift */; };
-		3876DFB7299B654100CB4FBB /* AccouncementCardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876DFB6299B654100CB4FBB /* AccouncementCardDetailView.swift */; };
+		3876DFB7299B654100CB4FBB /* AnnouncementCardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876DFB6299B654100CB4FBB /* AnnouncementCardDetailView.swift */; };
 		3876DFB9299B6BC900CB4FBB /* Announcement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876DFB8299B6BC900CB4FBB /* Announcement.swift */; };
 		3876DFBB299B6CD200CB4FBB /* AnnouncementData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876DFBA299B6CD200CB4FBB /* AnnouncementData.swift */; };
 		38CDB5F0299E14360082A934 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CDB5E6299E14350082A934 /* OpenSans-Semibold.ttf */; };
@@ -30,6 +30,9 @@
 		38CDB5F9299E14360082A934 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CDB5EF299E14360082A934 /* OpenSans-BoldItalic.ttf */; };
 		38CDB5FB299E14DB0082A934 /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CDB5FA299E14DB0082A934 /* Font+Extensions.swift */; };
 		38CDB5FD299E18FF0082A934 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CDB5FC299E18FF0082A934 /* Color+Extensions.swift */; };
+		38CDB6A4299E2FE60082A934 /* SwiftyExperiments.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38CDB6A3299E2FE60082A934 /* SwiftyExperiments.strings */; };
+		38CDB6A6299E308A0082A934 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CDB6A5299E308A0082A934 /* String+Extensions.swift */; };
+		38CDB6A8299E30DA0082A934 /* SwiftyExperimentsLocalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CDB6A7299E30DA0082A934 /* SwiftyExperimentsLocalizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +45,7 @@
 		3813CA7E2994DD2C000E5AB1 /* TeammatesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeammatesData.swift; sourceTree = "<group>"; };
 		3813CA802994DF14000E5AB1 /* TeammateRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeammateRowView.swift; sourceTree = "<group>"; };
 		3813CA822994E32E000E5AB1 /* TeammateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeammateDetailView.swift; sourceTree = "<group>"; };
-		3876DFB6299B654100CB4FBB /* AccouncementCardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccouncementCardDetailView.swift; sourceTree = "<group>"; };
+		3876DFB6299B654100CB4FBB /* AnnouncementCardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementCardDetailView.swift; sourceTree = "<group>"; };
 		3876DFB8299B6BC900CB4FBB /* Announcement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Announcement.swift; sourceTree = "<group>"; };
 		3876DFBA299B6CD200CB4FBB /* AnnouncementData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementData.swift; sourceTree = "<group>"; };
 		38CDB5E6299E14350082A934 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
@@ -57,6 +60,9 @@
 		38CDB5EF299E14360082A934 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		38CDB5FA299E14DB0082A934 /* Font+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
 		38CDB5FC299E18FF0082A934 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		38CDB6A3299E2FE60082A934 /* SwiftyExperiments.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = SwiftyExperiments.strings; sourceTree = "<group>"; };
+		38CDB6A5299E308A0082A934 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		38CDB6A7299E30DA0082A934 /* SwiftyExperimentsLocalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyExperimentsLocalizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +141,7 @@
 		3813CA712994C763000E5AB1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3876DFB6299B654100CB4FBB /* AccouncementCardDetailView.swift */,
+				3876DFB6299B654100CB4FBB /* AnnouncementCardDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -199,6 +205,7 @@
 			children = (
 				38CDB5FA299E14DB0082A934 /* Font+Extensions.swift */,
 				38CDB5FC299E18FF0082A934 /* Color+Extensions.swift */,
+				38CDB6A5299E308A0082A934 /* String+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -206,6 +213,7 @@
 		38CDB5E3299E13C30082A934 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				38CDB6A2299E2FBD0082A934 /* Strings */,
 				38CDB5E5299E13FB0082A934 /* Fonts */,
 			);
 			path = Assets;
@@ -226,6 +234,15 @@
 				38CDB5EC299E14360082A934 /* OpenSans-SemiboldItalic.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		38CDB6A2299E2FBD0082A934 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				38CDB6A3299E2FE60082A934 /* SwiftyExperiments.strings */,
+				38CDB6A7299E30DA0082A934 /* SwiftyExperimentsLocalizer.swift */,
+			);
+			path = Strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38CDB5F2299E14360082A934 /* OpenSans-Light.ttf in Resources */,
+				38CDB6A4299E2FE60082A934 /* SwiftyExperiments.strings in Resources */,
 				38CDB5F7299E14360082A934 /* OpenSans-ExtraBold.ttf in Resources */,
 				38CDB5F0299E14360082A934 /* OpenSans-Semibold.ttf in Resources */,
 				38CDB5F3299E14360082A934 /* OpenSans-LightItalic.ttf in Resources */,
@@ -309,12 +327,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3876DFB9299B6BC900CB4FBB /* Announcement.swift in Sources */,
+				38CDB6A8299E30DA0082A934 /* SwiftyExperimentsLocalizer.swift in Sources */,
 				3813CA632994C536000E5AB1 /* MainView.swift in Sources */,
 				38CDB5FB299E14DB0082A934 /* Font+Extensions.swift in Sources */,
 				3813CA832994E32E000E5AB1 /* TeammateDetailView.swift in Sources */,
+				38CDB6A6299E308A0082A934 /* String+Extensions.swift in Sources */,
 				3813CA7F2994DD2C000E5AB1 /* TeammatesData.swift in Sources */,
 				3876DFBB299B6CD200CB4FBB /* AnnouncementData.swift in Sources */,
-				3876DFB7299B654100CB4FBB /* AccouncementCardDetailView.swift in Sources */,
+				3876DFB7299B654100CB4FBB /* AnnouncementCardDetailView.swift in Sources */,
 				3813CA812994DF14000E5AB1 /* TeammateRowView.swift in Sources */,
 				3813CA612994C536000E5AB1 /* SwiftyExperimentsApp.swift in Sources */,
 				38CDB5FD299E18FF0082A934 /* Color+Extensions.swift in Sources */,

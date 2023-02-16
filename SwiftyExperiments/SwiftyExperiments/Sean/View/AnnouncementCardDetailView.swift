@@ -1,14 +1,12 @@
 import SwiftUI
 
-struct AccouncementCardDetailView: View {
+struct AnnouncementCardDetailView: View {
     // MARK: - Properties
     let announcement: Announcement
     
     // MARK: - Content
     var body: some View {
         ZStack {
-            Color.cardGrey.ignoresSafeArea()
-            
             VStack(alignment: .center) {
                 //: Announcement Image
                 Image(announcement.imageName)
@@ -51,7 +49,7 @@ struct AccouncementCardDetailView: View {
                 Button {
                     print("I was tapped!")
                 } label: {
-                    Text("Learn more")
+                    Text(learnMoreButtonTitle)
                         .font(.regular17)
                         .foregroundColor(.primaryColor)
                 }
@@ -62,10 +60,15 @@ struct AccouncementCardDetailView: View {
     }
 }
 
+// MARK: - Strings
+extension AnnouncementCardDetailView {
+    var learnMoreButtonTitle: String { "LEARN_MORE_BUTTON_TITLE" }
+}
+
 // MARK: - Preview
-struct AccouncementCardDetailView_Previews: PreviewProvider {
+struct AnnouncementCardDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        AccouncementCardDetailView(announcement: announcementData[2])
+        AnnouncementCardDetailView(announcement: announcementData[2])
             .previewLayout(.sizeThatFits)
     }
 }
