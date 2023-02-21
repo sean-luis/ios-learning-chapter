@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct MainView: View {
-    // MARK: - PROPERTIES
+    // MARK: - Properties
     var teammates: [Teammate] = teammatesData
     
     // MARK: - Content
@@ -15,10 +15,15 @@ struct MainView: View {
                         }
                     }
                 }
-                .navigationTitle("Teammates")
+                .navigationTitle(navigationViewTitle)
             } //: NAVIGATION
         }
     }
+}
+
+// MARK: - Strings
+extension MainView {
+    var navigationViewTitle: String { "MAIN_VIEW_NAVIGATION_VIEW_TITLE".localized }
 }
 
 // MARK: - Preview
