@@ -1,5 +1,5 @@
 import SwiftUI
 
 let teammatesData: [Teammate] = [
-    Teammate(name: "Sean", imageName: "Teammate", color: .accentColor)
+    Teammate(id: TeaammateID.eddison, name: "Sean", imageName: "Teammate", color: .accentColor)
 ]

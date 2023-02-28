@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct Teammate: Identifiable {
-    let id = UUID()
+    let id: TeaammateID
     let name: String
     let imageName: String
     let color: Color

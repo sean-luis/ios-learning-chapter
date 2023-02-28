@@ -1,15 +1,21 @@
 import SwiftUI
 
-struct TeammateDetailView: View {
+struct TeammateDetailView<Content: View>: View {
+    let content: (() -> Content)?
+    
+    init(content: @escaping () -> Content) {
+        self.content = content
+    }
+
     // MARK: - Body
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        content?()
     }
 }
 
 // MARK: - PREVIEW
 struct TeammateDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        TeammateDetailView()
+        TeammateDetailView(content: { Text("Hello, world!") })
     }
 }
