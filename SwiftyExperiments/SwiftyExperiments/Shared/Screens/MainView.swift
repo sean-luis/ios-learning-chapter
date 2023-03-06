@@ -18,7 +18,15 @@ struct MainView: View {
             NavigationView {
                 List {
                     ForEach(teammates.shuffled()) { teammate in
-                        navigationLink(for: teammate)
+                        if teammate.name == "Thulani" {
+                            NavigationLink(destination: UserListView()) {
+                                TeammateRowView(teammate: teammate).padding(.vertical, 4)
+                            }
+                        } else {
+                            NavigationLink(destination: TeammateDetailView()) {
+                                TeammateRowView(teammate: teammate).padding(.vertical, 4)
+                            }
+                        }
                     }
                 }
                 .navigationTitle(navigationViewTitle)
