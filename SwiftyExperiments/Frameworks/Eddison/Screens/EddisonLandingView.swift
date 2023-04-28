@@ -1,11 +1,17 @@
 import SwiftUI
 
-struct EddisonLandingView: View {
-    // MARK: - Properties
-
+public struct EddisonLandingView: View {
+    public init() {}
+        
     // MARK: - Content
-    var body: some View {
-        Text("Hello, Sean!")
+    public var body: some View {
+        List {
+            NavigationLink(destination: AnnouncementLandingView(), label: {
+                Text("App Announcements")
+            })
+        } // LIST
+        .listStyle(InsetGroupedListStyle())
+        .navigationBarTitle("Features", displayMode: .inline)
     }
 }
 

@@ -1,14 +1,14 @@
 import Foundation
 
-let announcementData = [Announcement(imageName: "Teammate",
+let announcementData = [Announcement(imageName: nil,
                                      date: "27 January 2023",
-                                     title: "Are you able to record trips?",
-                                     message: "Check your settings to ensure trip recording is working correctly"),
-                        Announcement(imageName: "Teammate",
+                                     title: "Are you able to record?",
+                                     message: "Check your settings to ensure recording is working correctly"),
+                        Announcement(imageName: nil,
                                      date: "01 December 2022",
-                                     title: "Earn more cash back on fuel",
-                                     message: "Your Vitality Drive status is more important than ever with simplified cashback. Monitor your daily points history on the Drive app to see how you can improve and earn maxium cash back"),
-                        Announcement(imageName: "Teammate",
+                                     title: "Earn more on fuel",
+                                     message: "Your status is more important than ever. Monitor your daily points history on the app to see how you can improve and earn maxium cash back"),
+                        Announcement(imageName: nil,
                                      date: "01 December 2022",
                                      title: "Better discounts on in-store purchases",
-                                     message: "Your Vitality Drive status is more important than ever with simplified cashback. Monitor your daily points history on the Drive app to see how you can improve and earn maxium cash back")]
+                                     message: "Your status is more important than ever. Monitor your daily points history on the app to see how you can improve and earn maxium cash back")]

@@ -1,32 +1,31 @@
 import SwiftUI
 
-enum FontWeight {
+public enum FontWeight {
     case light
     case regular
     case semibold
     case bold
 }
 
-extension Font {
+public extension Font {
     static var defaultFontFamilyDescription: String { "OpenSans" }
     
     static var regular13: Font { customFont(ofSize: 13, weight: .regular) }
     static var regular15: Font { customFont(ofSize: 15, weight: .regular) }
     static var regular17: Font { customFont(ofSize: 17, weight: .regular) }
     static var regular20: Font { customFont(ofSize: 17, weight: .regular) }
-
+    
     static var light13: Font { customFont(ofSize: 13, weight: .light) }
     static var light15: Font { customFont(ofSize: 13, weight: .light) }
     static var light17: Font { customFont(ofSize: 13, weight: .light) }
-
+    
     static var semibold13: Font { customFont(ofSize: 13, weight: .semibold) }
     static var semibold15: Font { customFont(ofSize: 13, weight: .semibold) }
     static var semibold17: Font { customFont(ofSize: 13, weight: .semibold) }
-
+    
     static var bold13: Font { customFont(ofSize: 13, weight: .bold) }
     static var bold15: Font { customFont(ofSize: 13, weight: .bold) }
     static var bold17: Font { customFont(ofSize: 13, weight: .bold) }
-
     
     static func customFont(ofSize size: CGFloat, weight: FontWeight) -> Font {
         var fontName = defaultFontFamilyDescription
@@ -41,7 +40,7 @@ extension Font {
         case .bold:
             fontName += "Bold"
         }
-    
+        
         return Font.custom(fontName, size: size)
     }
     

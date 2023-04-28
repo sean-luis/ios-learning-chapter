@@ -1,6 +1,6 @@
 import Foundation
 
-class SwiftyExperimentsLocalizer {
+public class SwiftyExperimentsLocalizer {
     static let shared = SwiftyExperimentsLocalizer()
     
     private let bundle = Bundle(for: SwiftyExperimentsLocalizer.self)

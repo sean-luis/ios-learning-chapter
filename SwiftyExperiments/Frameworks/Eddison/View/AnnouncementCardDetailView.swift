@@ -1,4 +1,5 @@
 import SwiftUI
+import Utilities
 
 struct AnnouncementCardDetailView: View {
     // MARK: - Properties
@@ -9,16 +10,18 @@ struct AnnouncementCardDetailView: View {
         ZStack {
             VStack(alignment: .center) {
                 //: Announcement Image
-                Image(announcement.imageName)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 210,
-                           height: 116,
-                           alignment: .center)
-                    .padding(.top, 15)
-                    .padding(.bottom, 15)
+                if let imageName = announcement.imageName {
+                    Image(imageName)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 210,
+                               height: 116,
+                               alignment: .center)
+                        .padding(.top, 15)
+                        .padding(.bottom, 15)
+                }
                 
-                Group {
+                VStack {
                     //: Announcement Date
                     Text(announcement.date)
                         .font(.regular13)
@@ -41,9 +44,8 @@ struct AnnouncementCardDetailView: View {
                         .multilineTextAlignment(.center)
                         .lineLimit(nil)
                         .padding(.bottom, 15)
-                } //: Group
-                .padding(.leading, 15)
-                .padding(.trailing, 15)
+                } //: VSTACK
+                .padding(15)
                 
                 //: Learn more button
                 Button {
@@ -62,7 +64,7 @@ struct AnnouncementCardDetailView: View {
 
 // MARK: - Strings
 extension AnnouncementCardDetailView {
-    var learnMoreButtonTitle: String { "LEARN_MORE_BUTTON_TITLE" }
+    var learnMoreButtonTitle: String { "LEARN_MORE_BUTTON_TITLE".localized }
 }
 
 // MARK: - Preview
